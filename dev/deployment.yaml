@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ramann123/hotstar:latest
+        image: charlesprakash/argocd:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 3000
